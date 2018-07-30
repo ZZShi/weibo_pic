@@ -11,7 +11,7 @@ Created in   22:25
 import os
 import re
 import requests
-import face_process
+from face_process import face_detection
 
 # 可配置的参数
 # 用户的value值，可在用户首页的链接中提取  如迪丽热巴的微博链接https://weibo.com/u/1669879400?is_hot=1
@@ -111,7 +111,7 @@ def main():
             for index, pic in enumerate(pics):
                 pic_url = pic.get("url")
                 content = get_content(pic_url)
-                result = face_process.face_detection(content)
+                result = face_detection(content)
                 print(result)
                 if result.get("gender_probability") < 0.6:
                     continue
