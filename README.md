@@ -6,6 +6,8 @@ weibo_pic
 <br>pip install beautifulsoup4</br>
 <br>pip install baidu-aip</br>
 ## 百度人脸人别
-  人脸识别调用了百度[AI开放平台](http://ai.baidu.com/)的API，此服务需要注册使用；传入需要解析的照片，设置参数，得到需要的结果；具体文档请参考[文档中心--百度AI-百度AI-AI开放平台](http://ai.baidu.com/docs#/Face-Detect/top)
+人脸识别调用了百度[AI开放平台](http://ai.baidu.com/)的API，此服务需要注册使用；传入需要解析的照片，设置参数，得到需要的结果；具体文档请参考[文档中心--百度AI-百度AI-AI开放平台](http://ai.baidu.com/docs#/Face-Detect/top)
 ## 结果展示
-<img src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg" width="150" height="150" alt="图片加载失败时，显示这段字"/>
+<br>本次爬取的目标为迪丽热巴的微博，如果需要爬取其它目标，只需在weibo_pic.py中更改全部变量VALUE</br>
+<br>如何获取VALUE，打开目标的微博链接，如迪丽热巴：https://weibo.com/u/1669879400?is_hot=1 ，则VALUE为1669879400</br>
+<div align=center<img src="https://github.com/ZZShi/weibo_pic/blob/master/result.png" width="300" height="300" alt="图片加载失败"/></div>
