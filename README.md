@@ -10,4 +10,5 @@ weibo_pic
 ## 结果展示
 <br>本次爬取的目标为迪丽热巴的微博，如果需要爬取其它目标，只需在weibo_pic.py中更改全部变量VALUE</br>
 <br>如何获取VALUE，打开目标的微博链接，如迪丽热巴：https://weibo.com/u/1669879400?is_hot=1 ，则VALUE为1669879400</br>
+<br> </br>
 <img src="https://github.com/ZZShi/weibo_pic/blob/master/result.png" width="800" height="500" alt="图片加载失败"/>
