@@ -16,9 +16,9 @@ import requests
 from aip import AipFace
 # 需要在百度AI开放平台注册账号申请 http://ai.baidu.com/
 # 申请后直接复制粘贴过来
-APP_ID = "10917093"
-API_KEY = "V9KcvXGzRFAN8OgzBoocU3S9"
-SECRET_KEY = "Ghcu8LP47ZFdo4VXeKD0GhXijTPNvzBy"
+APP_ID = ""
+API_KEY = ""
+SECRET_KEY = ""
 
 
 def _get_token():
